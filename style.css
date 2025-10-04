@@ -302,7 +302,7 @@ section {
   }
 
   .nav-links {
-    flex-direction: column;
+    flex-direction: row;
     gap: 0.8rem;
     text-align: center;
   }
@@ -349,3 +349,4 @@ section {
     gap: 1rem;
   }
 }
+
