@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+    
+body,html{
+    width: 100%;
+    height: 100%;
+}
+main{
+    width: 100%;
+
+}
+nav{
+    padding: 7vw 7vw;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+nav a{
+    display: inline-block;
+    font-size: 1.4vw;
+    color: black;
+    text-decoration: none;
+}
+#navl {
+    display: flex;
+    gap: 22px;
+
+}
+.margin{
+    width: 100%;
+    height: 20vw;
+}
+
+#home{
+    padding: 7vw 7vw;
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#imgdiv1{
+    width: 20vw;
+    height: 7vw;
+    /* letter-spacing: -.1vw */
+}
+#imgdiv1 h1{
+    padding-bottom: .9vw;
+    font-size: 1.8vw;
+}
+#imgdiv1 h3{
+    font-size: 1vw;
+}
+#imgdiv1 p{
+    padding-bottom: .9vw;
+    opacity: .8;
+    font-size: 1vw;
+}
+#imgpink{
+    width: 14vw;
+    height: 20vw;
+}
+#imgpink img{
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#imgdiv2{
+    width: 25vw;
+    height: 50vw;
+
+}
+header{
+    z-index: 99;
+    line-height: .7;
+    position: absolute;
+    margin-top: -7.6vw;
+    margin-left: 30vw;
+}
+header h1{
+
+    letter-spacing: -.5vw;
+    font-size: 6vw;
+    font-weight: 400;
+}
+#imgplant{
+    width: 25vw;
+    height: 40vw;
+}
+#imgplant img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#pd{
+
+    margin-top: .8vw;
+    width: 10vw;
+    height: 9vw;
+}
+#pd p{
+    font-size: 1.6vw;
+}
+
+
+#imgdiv3{
+    margin-top: 25vw;
+    width: 14vw;
+    height: 20vw;
+    display: flex;
+    gap: .7vw;
+    text-align: center;
+    
+}
+#imgdiv3 i{
+    padding: .2vw;
+    font-size: 1.2vw;
+    width: 2vw;
+    height: 2vw;
+    border: .2vw solid grey;
+    border-radius: 50%;
+}
+#imgdiv3 h4{
+    font-size: 1.5vw;
+    font-weight: 400;
+}
+#motive{
+    padding: 7vw 7vw;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+}
+#motive h6{
+    width: 20vw;
+    font-size: 1.8vw;
+    opacity: .6;
+    margin-top: -10vw;
+    
+}
+#pd1{
+    width: 90vw;
+    height: 20vw;
+    text-align: end;
+    margin-top: 2vw;
+    
+}
+#pd1 p{
+    font-size: 3vw;
+    letter-spacing: -.1vw;
+    font-weight: 400;
+}
+p span{
+    
+    display: inline-block;
+    border-radius: 18px;
+    width: 4vw;
+    height: 2.4vw;
+    margin-bottom: -.3vw;
+    background-color: rgb(0, 0, 0);
+
+}
+p .img1{
+    background-image: url("./bluegirl.jpg");
+    background-size: cover;
+    background-position: center;
+}
+p .img2{
+    width: 5vw;
+    height: 2.6vw;
+    background-image: url("./shaljam.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+p .img3{
+    background-image: url("./grass.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#page3{
+    padding: 7vw 7vw;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+}
+#imgsea{
+    width: 15vw;
+    height: 22vw;
+
+}
+#imgsea img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#imgcloud{
+    width: 20vw;
+    height: 30vw;
+
+}
+#imgcloud img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#imgsea p{
+    font-size: 1.1vw;
+    opacity: .8;
+}
+#imgcloud p{
+    font-size: 1.1vw;
+    opacity: .8;
+}
+#imgcloud h1{
+    font-size: 2.8vw;
+}
+#imgsea h1{
+    font-size: 2.8vw;
+}
+#page4{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+
+
+}
+#bottleimg{
+    width: 65vw;
+    height: 40vw;
+
+}
+#bottleimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#bottlepd{
+    align-items: center;
+    justify-content: center;
+    transform: translate(5vw , 10vw);
+    width: 17vw;
+    height: 10vw;
+}
+#bottlepd h1{
+    letter-spacing: -.1vw;
+    font-size: 2.7vw;
+}
+#bottlepd p{
+    font-size: 1.2vw;
+    opacity: .8;
+}
+#lastdiv{
+    margin-top: -20px;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+#lastpage {
+    margin-top: 70px;
+    position: relative;   /* video aur button ke liye relative container */
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;     /* video ke bahar kuch na dikhe */
+}
+
+#video {
+    width: 100%;
+    height: 100%;
+}
+
+#video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+#videopd {
+    position: absolute;     /* video ke upar nahi, neeche align karenge */
+    bottom: 5vw;            /* neeche thoda space */
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 300px;
+}
+
+#videopd h3{
+    margin-left: 4.5vw;
+}
+
+#videopd button {
+    margin-left: 5vw;
+    outline: none;
+    padding: .9vw;
+    background-image: linear-gradient(to right bottom, white , rgb(184, 183, 183));
+    font-size: .9vw;
+    text-transform: uppercase;
+    border: 1px solid rgb(32, 30, 30);
+    border-radius: 15px;
+    margin-top: 1vw;
+    transition: 0.3s ease;      /* hover smooth effect */
+}
+
+#videopd button:hover {
+    background-image: linear-gradient(to right bottom, rgb(184, 183, 183), white);
+    cursor: pointer;
+    transform: translateY(-0.3vw); /* slight lift on hover */
+}
+
