@@ -5,6 +5,9 @@
   box-sizing: border-box;
   font-family: Arial, sans-serif;
 }
+body::-webkit-scrollbar {
+  display: none;
+}
 body {
   background: #0f172a;
   color: #d1d5db;
@@ -257,3 +260,4 @@ section {
   font-size: 2.3rem;
   margin-bottom: 1rem;
 }
+
